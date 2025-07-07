@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,29 +9,38 @@
     header { background: #2b2b2b; color: white; padding: 2rem 1rem; text-align: center; }
     header h1 { margin: 0; font-size: 2.5rem; }
     header p { margin-top: .5rem; font-size: 1.2rem; color: #ccc; }
+    nav { background: #444; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
     main { padding: 2rem 1rem; max-width: 800px; margin: auto; }
     section { margin-bottom: 2rem; }
     h2 { color: #2b2b2b; border-bottom: 2px solid #eee; padding-bottom: .5rem; }
     ul { list-style-type: square; padding-left: 1.5rem; }
     a { color: #0077b5; text-decoration: none; }
     footer { background: #f1f1f1; padding: 1rem; text-align: center; font-size: .9rem; color: #666; }
+    .button-link { display: inline-block; padding: 0.75rem 1.25rem; background-color: #0077b5; color: white; text-decoration: none; border-radius: 4px; margin-top: 1rem; }
   </style>
 </head>
 <body>
   <header>
-  <img src="logo.png" alt="Zedraive Logo" style="max-width: 200px; height: auto; margin-bottom: 1rem;">
-  <h1>Zedraive</h1>
-  <p>If Not Today, When? Choose Zedraive.</p>
-</header>
+    <h1>Zedraive</h1>
+    <p>If Not Today, When? Choose Zedraive.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="careers.html">Careers</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
 
   <main>
-    <section>
+    <section id="about">
       <h2>About Us</h2>
       <p>At Zedraive, we help businesses move faster by taking tasks off their plate. We provide reliable, skilled, and industry-aware virtual assistants who specialize in admin support, customer service, healthcare coordination, e-commerce operations, real estate assistance, and more.</p>
       <p>Whether you're a solo entrepreneur or a growing team, our VAs adapt to your workflow, tools, and time zone. We're not just task-doers — we're proactive partners invested in your success.</p>
     </section>
 
-    <section>
+    <section id="services">
       <h2>Our Services</h2>
       <ul>
         <li>Administrative Support</li>
@@ -43,7 +51,7 @@
       </ul>
     </section>
 
-    <section>
+    <section id="contact">
       <h2>Contact Us</h2>
       <p>We’d love to hear from you! Reach out via email:</p>
       <p><a href="mailto:info@zedraive.com">info@zedraive.com</a></p>
